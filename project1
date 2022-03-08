@@ -1,0 +1,94 @@
+<head>
+<style>
+  #title {
+  text-align: center;
+  color: rgb(0, 102, 51);
+  }
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 55%;
+  }
+#image-caption {
+  text-align: center;
+}
+.fullstack {
+  display: inline;  
+  }
+#mon {
+  text-align: center;
+  background-color: hsl(0, 8%, 87%);
+  width: 220px; 
+  }  
+#thur {
+  text-align: center;
+  width: 220px; 
+  }    
+#ewhabootcamp-info {
+  display: grid;
+  gird-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  } 
+#meeting {
+  border: 4px solid hsl(0, 100%, 85%);
+  grid-area: 1/1/2/2;
+  height: 210px;
+  width: 735px;
+  }  
+#progress {
+  border: 4px solid hsl(53, 100%, 85%);
+  grid-area: 1/2/2/3;
+  height: 210px;
+  width: 735px;
+  }  
+#fine {
+  border: 4px solid hsl(201, 100%, 87%);
+  grid-area: 2/1/3/2;
+  height: 210px;
+  width: 735px;
+  }  
+#seminar {
+  border: 4px solid hsl(245, 100%, 87%);
+  grid-area: 2/2/3/3;
+  height: 210px;
+  width: 735px;
+  }
+h3 {
+  text-align: center;  
+  }
+p {
+  margin-left: 20px;
+  }  
+#tribute-info {
+  margin-left: 0;
+}
+</style>  
+</head>  
+<main id="main">
+  <h1 id="title">EWHA Boot Camp</h1>
+  <div id="img-div">
+    <img id="image" src="https://cdn.pixabay.com/photo/2014/08/14/08/34/university-417845__480.jpg" alt="EWHA Womens Univercity Campus">
+    <h2 id="img-caption">Where Change Begins</h2>
+    <p id="tribute-info">This page is for students who is studying full stack programming at EWHA Boot Camp</p><br></div>
+  <div>  
+    <h2 id="mon" class="fullstack">Full Stack (Mon)</h2>
+    <h2 id="thur" class="fullstack">Full Stack (Thur)</h2></div>
+  <div id="ewhabootcamp-info">
+    <div id="meeting">
+      <h3><회의></h3>
+      <p>* 매주 월요일 저녁 9시</p></div>
+    <div id="progress">
+      <h3><진도></h3>
+      <p>* 3주에 한 주제씩 끝내기<br>* 4주 동안 진도 밀리지 않으면 1개씩 지급</p>
+      <p>-2/21~3/13: fcc Responsive Web Design Certification<br>-3/14~4/3: fcc Javascript Algorithms and Data Structures Certification<br>-4/4~4/17: fcc Front End Development Libraries Certification</P></div>
+    <div id="fine">
+      <h3><벌금></h3>
+      <p>* 한달에 한 번 정산<br>* 진도 밀린 부원 제외하고 1/n</p></div>
+    <div id="seminar">
+      <h3><세미나></h3>
+      <p>* 메타버스 세미나: 전체 회의때 자료 수집 후 개최 예정</p></div>
+  </div>
+  <a id="tribute-link" href="https://www.notion.so/bcac5bdbe12943d5815c389f86bc9060?v=f77f3ebdabf74563917e1a7535b039bd" target="_blank"><br>Go for EWHA Boot Camp Notion</a>     
+</main>
