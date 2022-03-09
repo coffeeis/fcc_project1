@@ -1,0 +1,140 @@
+<head>
+ <style>
+h1 {
+text-align: center;  
+}
+#five-colorful-hands {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#description {
+text-align: center;
+font-size: 20px;  
+color: black  
+}
+form {
+display: block; 
+width: 1000px;
+height: baseline;
+margin: 0 auto 0 auto; 
+}
+.personal-infos {
+background-color: hsl(199, 100%, 92%);   
+padding: 20px;  
+border-style: "solid";
+border-radius: 20px;
+margin: 15px;   
+}
+label.personal-info {
+font-weight: bold;
+font-size: 20px;   
+}
+.animals {
+background-color: hsl(0, 100%, 90%);
+padding: 20px;
+border-style: "solid";
+border-radius: 20px;
+margin: 15px;    
+}
+h2 {
+font-size: 20px;
+text-align: center;  
+margin-top: 0;
+}
+#animal {
+font-size: 18px;  
+color: black;
+text-align: center;
+}
+img.animal-img {
+display: inline;  
+width: 150px;
+height: 100px;  
+padding: 0;  
+}
+label.animal-label { 
+font-size: 18px;
+line-height: 2;  
+}
+.tests {
+background-color: hsl(53, 100%, 87%);
+padding: 20px;
+border-style: "solid";
+border-radius: 20px; 
+margin: 15px;    
+}
+label.test {
+font-size: 18px;
+line-height: 1.5;  
+}
+#comments-label {
+display: block;  
+font-size: 20px;
+font-weight: bold;  
+text-align: center;  
+margin-top: 0;  
+}
+#submit {
+display: block;  
+width: 100px;
+height: 40px;  
+margin: 0 auto 0 auto;
+}
+</style>
+</head>
+<main>
+<h1 id="title">What is the Most Precious Thing in Your Life?</h1>
+<img id="five-colorful-hands" src="https://cdn.pixabay.com/photo/2017/05/28/18/59/group-2351896__340.png" alt="Five Colorful Hands">
+<p id="description">This psychological test tells you what you throw away first when you're in trouble.<br>Look at the options and check what comes to mind right away.</p>
+<form id="survey-form" action="" target="">
+  <div class="personal-infos">
+    <label id="name-label" class="personal-info" for="name">What is Your Name?</label><br><br>
+    <input type="text" id="name" name="name" placeholder="Yeom Su-In" required><br><br>
+    <label class="personal-info" for="dropdown">What is Your Sex?</label><br><br>
+    <select id="dropdown" name="sex">
+      <option value="female">female</option>
+      <option value="male">male</option>
+    </select><br><br>  
+    <label id="email-label" class="personal-info" for="email">Please Write Down Your Email</label><br><br>
+    <input type="email" id="email" name="email" placeholder="coffeeis@gmail.com" required><br><br>
+    <label id="number-label" class="personal-info" for="name">Please Write Down Your phone number</label><br><br>
+    <input type="number" id="number" name="number" placeholder="01000000000" min="01000000000" max="01099999999" required><br>
+  </div>  
+  <div class="animals">
+    <h2 id="animals">Select One Aniaml to Throw away</h2>
+    <p id="animal">You suddenly leave for Africa one day because you feel skeptical about your current life. On the way across the desert, an elderly man in a village is asked to take the animals to the next village. You, who started to feel tired, decided to abandon one of the animals. What animal will you throw away?</p>
+    <img class="animal-img" src="https://cdn.pixabay.com/photo/2019/10/27/13/49/lion-4581841__340.jpg" alt="Lion">
+    <img class="animal-img" src="https://cdn.pixabay.com/photo/2017/04/09/16/46/lamb-2216160__340.jpg" alt="Lamb">
+    <img class="animal-img" src="https://cdn.pixabay.com/photo/2019/07/21/12/10/cow-4352623__340.jpg" alt="Cow">
+    <img class="animal-img" src="https://cdn.pixabay.com/photo/2021/11/14/21/14/animals-6795732__340.jpg" alt="Horse">
+    <img class="animal-img" src="https://cdn.pixabay.com/photo/2022/01/20/15/37/monkey-6952641__340.jpg" alt="Monkey"><br><br>
+    <label class="animal-label" for="Lion">Lion</label>
+    <input type="radio" id="Lion" name="animal" value="Lion"><br>
+    <label class="animal=label" for="Lamb">Lamb</label>
+    <input type="radio" id="Lamb" name="animal" value="Lamb"><br>
+    <label class="animal-label" for="Cow">Cow</label>
+    <input type="radio" id="Cow" name="animal" value="Cow"><br>
+    <label class="animal-label" for="Horse">Horse</label>
+    <input type="radio" id="Horse" name="animal" value="Horse"><br>
+    <label class="animal-label" for="Monkey">Monkey</label>
+    <input type="radio" id="Monkey" name="animal" value="Monkey">
+  </div>  
+  <div class="tests">
+    <h2 id="tests-label">Choose All Types of Psychological Tests You're Interested in</h2> 
+    <label class="test" for="relationshop">relationshop psychological test</label>
+    <input type="checkbox" id="relationshop" name="type" value="relationship"><br>
+    <label class="test" for="character">character psychological test</label>
+    <input type="checkbox" id="character" name="type" value="character"><br>
+    <label class="test" for="major">major psychological test</label>
+    <input type="checkbox" id="major" name="type" value="major"><br>
+    <label class="test" for="flower">flower psychological test</label>
+    <input type="checkbox" id="flower" name="type" value="flower"> 
+    <label id="comments-label" for="comment">Review of This Page</label><br>
+    <textarea id="comment" name="review" row="10" cols="110"></textarea> 
+  </div>
+  <div class="submit">
+    <input id="submit" type="submit" value="submit">
+  </div>  
+</form>
+</main>
